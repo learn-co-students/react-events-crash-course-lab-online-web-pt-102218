@@ -28,7 +28,6 @@ export function drawChromeBoiAtCoords(x, y) {
   const ctx = canvas.getContext("2d")
   const rect = canvas.getBoundingClientRect()
   const [cX, cY] = [rect.left, rect.top]
-  
   let img
   if (cycling) {
     img = colors[idx]
